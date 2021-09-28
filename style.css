@@ -1,0 +1,149 @@
+/*On enleve toutes les margin et padding*/
+
+*{
+  margin: 0;  
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************** LE HEADER ******************/
+#text{
+  display: flex;
+  margin-top: 20px; 
+  justify-content: right;
+  
+  
+}
+
+.top{
+  color: #212121;
+}
+
+.element{
+  height: 20px;
+  margin: 15px;
+ 
+}
+
+
+ul{
+  list-style-type:none;
+  display: flex;
+}
+
+
+/************************** LE MAIN *********************/
+#googlelogo{
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 30%;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 20px;
+
+  
+}
+
+
+.searchbar{
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px  solid #80808047;
+  border-radius: 50px;
+  align-items: center;
+  height: 40px;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.searchbar:hover{
+  box-shadow: 0px 4px 6px 0px #00000066;
+}
+input{
+  height: 30px;
+  width:80%;
+  border: none;
+  font-size: 15px;
+}
+input:focus{
+  outline: none;
+}
+
+
+/*image dans la barre de recherche*/
+.img{
+  margin: 10px;
+} 
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.boutonrecherche{
+  margin: 20px 10px 0 10px;
+  padding: 10px;
+  height: 35px;
+  width: auto;
+  border: 0;
+  background-color:#F8F9FA;
+  border-radius: 5px;
+  
+}
+
+.boutonrecherche:hover{
+  
+  border: solid 1px #c9c9c973;
+  box-shadow: 0px 2px 0px 0px #00000014;
+    
+}
+/************************* LE FOOTER **********************/
+
+footer{
+  background-color: #F2F2F2;
+  position: absolute;
+  bottom:0;
+  height: 95px;
+  width: 100%;
+  color: grey;
+  font-size: 15px;
+  
+}
+
+
+.country{
+  position: relative;
+  height: 50px;
+  border-bottom: 1px solid rgba(170, 167, 167, 0.377);
+
+} 
+
+#France{
+
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.basdepage{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+.element{
+   margin: 10px;
+}
+
+.nature{
+  margin:10px 60px;
+}
+
+a{
+  text-decoration: none;
+  color: #707579;
+
+}
